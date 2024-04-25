@@ -1,0 +1,67 @@
+body {
+
+    background: url(../public/background_white.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.main-section {
+    margin: 0 auto;
+    margin-top: 25vh;
+    padding: 0;
+}
+
+.modal-content {
+    background-color: #5a626b;
+    opacity: .85;
+    padding: 0 15px;
+    box-shadow: 0px 0px 3px #848484;
+    max-width: 400px;
+    margin: auto;
+}
+
+.user-img {
+
+    margin-top: -100px;
+    margin-bottom: 25px;
+}
+
+
+.user-img img {
+    width: 256px;
+    height: 220px;
+}
+
+.form-group input {
+    height: 42px;
+    font-size: 18px;
+    border: 0;
+    padding-left: 54px;
+    border-radius: 5px;
+}
+
+.control-label i {
+
+    position: absolute;
+    left: 28px;
+    font-size: 22px;
+    padding-top: 8px;
+
+}
+
+
+.btn-custom-green_utmir {
+    width: 60%;
+    margin: 5px 0 25px;
+    color: #016431;
+}
+
+
+.swal2-confirm {
+    background-color: #016431 !important;
+    border-color: darkgreen !important;
+}
+
+
+.registernow {
+    color: #eeeeee;
+}

@@ -1,0 +1,164 @@
+.header-v {
+    padding: 30px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(to right, pink, lightblue);
+    transition: background 300ms ease-in-out;
+    /* Suaviza la transición del fondo */
+    min-height: auto;
+    /* Aumentar para asegurar visibilidad del efecto */
+}
+
+
+.timeline-vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.timeline-item {
+    position: relative;
+    /* Añade esta línea */
+    min-height: fit-content;
+    /* Ajusta la altura automáticamente según el contenido */
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.timeline-date {
+    margin-right: 15px;
+}
+
+.timeline-mark {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.timeline-dot {
+    width: 15px;
+    height: 15px;
+    background-color: #5cb85c;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+    margin-left: 5px;
+}
+
+.vertical-line {
+    position: absolute;
+    left: 58%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #5cb85c;
+    z-index: 1;
+    height: 50rem;
+}
+
+.timeline-label {
+    padding-left: 50px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+
+}
+
+.timeline-label h4 {
+    flex-grow: 1;
+    text-align: left;
+}
+
+
+.timeline-image {
+    max-width: 40%;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.timeline-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-left: 3px solid #5cb85c;
+    margin-left: 20px;
+}
+
+.timeline-details p {
+    width: 100%;
+    text-align: left;
+}
+
+.header-v {
+    z-index: 2;
+}
+
+/*  */
+
+.page.parallax-1-page {
+    background: #0e0d0e;
+    height: 60%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.parallax-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 70%;
+    height: 400px;
+    width: 100vw;
+    transition: 0.05s linear;
+}
+
+.parallax-banner h2 {
+    font-size: 48px;
+    color: #f8f8f8;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.parallax-banner button {
+    border: 0;
+    background: #ffffff;
+    color: #222222;
+    padding: 10px 24px;
+    border-radius: 30px;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.parallax-container {
+    padding: 0 10%;
+}
+
+.section-v h2 {
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding-top: 60px;
+}
+
+.section-v p:last-child {
+    padding-bottom: 60px;
+}
+
+.section-v p {
+    opacity: 0.9;
+}
